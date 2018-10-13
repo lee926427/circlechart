@@ -28,8 +28,8 @@ $(document).ready(function () {
     let key = (d) => d.data.label;
 
     let color = d3.scaleOrdinal()
-      .domain(['Lorem ispim', 'dolor sit', 'amet', 'consectetur', 'adipisicing',
-       'elit', 'sed', 'do', 'eiusmod', "tempor", "incididunt"])
+      .domain(['開車', '旅遊', '約會', '跑腿', '學習',
+       '宅在家', '工作', '睡覺', '慢跑', "健身房", "烘焙"])
       .range(["#98abc5", "#8a89a6", "#7b6888", "#6b486b", "#a05d56", "#d0743c", "#ff8c00"]);
     
     function randomData(){
